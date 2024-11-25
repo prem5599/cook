@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.gridlayout {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    padding: 20px 0px;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.videosection{
+    display: flex;
+    flex-direction: column;
+}
+.videosection h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+.videosection p{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 20px 0px 30px 350px;
+}
+.instructionschild1 h2, .instructionschild2 h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.instructionschild1 p, .instructionschild2 p{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.fullvideocountdown{
+    display: flex;
+}
+.instructions{
+    margin: 100px 0px 0px 50px;
+}
+.timer{
+    display: flex;
+    margin-left: 80px;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    height: 92px;
+    width: 221px;
+    
+    margin-left: 160px;
+    padding: 25px 50px;
+    box-shadow: rgba(258, 58, 67, 0.3) 0px 10px 30px;
+}
+.seconds h6, .minutes h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 20px;
+    padding-left: 10px;
+}
+.para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+
+}
+
+
+.seconds, .minutes{
+    margin-left: 10px;
+}
+
+.button1, .button2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-size: 100;
+    background-color: #1F1F1F;
+    border: none;
+    border-radius: 10px;
+    width: 123px;
+    height: 62px;
+    margin-top: 50px;
+    box-shadow: rgba(258, 58, 67, 0.3) 0px 10px 30px;
+}
+.button1{
+    margin-right: 300px;
+}
+
+button:hover{
+    cursor: pointer;
+}

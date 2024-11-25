@@ -1,0 +1,1500 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridlayout {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------------Nav Bar----------------------- */
+.imagechild1 img {
+    height: 50px;
+    width: auto;
+}
+
+.imagechild1 img:hover {
+    cursor: pointer;
+}
+
+.ulmain {
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.ulmain li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.ulmain li a:hover {
+    color: rgb(114, 114, 114);
+
+}
+
+.ulmain li button {
+    background-color: #FFC222;
+    margin-top: -13px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.ulmain li button:hover {
+
+    cursor: pointer;
+}
+
+.parentheader {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulmain li img:hover {
+    cursor: pointer;
+
+}
+
+nav {
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    top: -1px;
+    z-index: 100;
+}
+
+
+/* ------------------------------------------------------------Banner section */
+.banner {
+    background-image: url(./images/bannerimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerchild1 {
+    padding: 150px 0px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerchild1 h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 440px;
+}
+
+.bannerchild1 h3 {
+    width: 450px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.buttonchild2 button {
+    background-color: #EE3A43;
+    height: 60px;
+    width: 170px;
+    color: white;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin: 2px 10px 0px -25px;
+
+}
+
+.buttonchild2 {
+    border: 3px #EE3A43 solid;
+    height: 70px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 40px 0px 0px 30px;
+}
+
+.bannerchild1 button:hover {
+    cursor: pointer;
+}
+
+.bannerchild1 img {
+    height: 50px;
+    width: 50px;
+    margin: -60px 0px 0px 250px;
+}
+
+.bannerchild1 h4 {
+    margin: -35px 0px 0px 320px;
+}
+
+.buttonparent img,
+h4:hover {
+    cursor: pointer;
+
+}
+
+/*-------------------------- About - text area-------------------------- */
+.about1 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about1 h4 {
+    color: #EE3A43;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+}
+
+.about1 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    width: 1000px;
+}
+
+.textarea p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    width: 1100px;
+    margin-right: 50px;
+}
+
+.verticalline {
+    border-left: 2px solid black;
+    height: 150px;
+    width: 400px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.verticalline img {
+    height: 80px;
+    width: 80px;
+    margin-left: 130px;
+    margin-bottom: 5px;
+}
+
+.verticalline h3 {
+    margin-left: 110px;
+    margin-bottom: 5px;
+
+}
+
+.verticalline p {
+    width: 330px;
+}
+
+.textarea {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* ---------------------------------------------- recipe area ---------------------------------------------------------*/
+.recipesparent1 {
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/Biryanirecipes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipesparent2 {
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/cakerecipes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.recipesparent3 {
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/BBQrecipes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipeborder {
+    border: 5px solid #FFC222;
+    border-radius: 30px;
+    padding: 420px 0px 0px 0px;
+    border-bottom: none;
+}
+
+.recipeborder button {
+    color: black;
+    padding: 10px 90px;
+    background-color: #FFC222;
+    border: none;
+    border-radius: 30px;
+    width: 380px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+}
+
+.recipesparent1:hover,
+.recipesparent2:hover,
+.recipesparent3:hover {
+    cursor: pointer;
+}
+
+
+.recipesection {
+    margin-top: 130px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 0;
+}
+
+/*---------------------------------------------- Sign up Area ------------------------------------------------------ */
+
+.signupbackground {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EE3A43;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 180px;
+    z-index: 10;
+
+
+}
+
+/* sign up text area */
+.signuptextarea h4 {
+    padding-top: 100px;
+    width: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.signuptextarea hr {
+    width: 200px;
+    border: 5px solid #FFC222;
+    margin-bottom: 10px;
+}
+
+.signuptextarea p {
+    width: 200px;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+/* Sign up input area */
+.signupinput {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.signupinput form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+.emailid,
+.password,
+.fullname,
+.phonenumber {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 400px;
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+.otp {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    padding: 30px 30px;
+    font-size: 20px;
+    margin-left: 452px;
+}
+
+.signupbox {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+/* Sign up Button */
+.buttonsignup button {
+    background-color: #FFC222;
+    height: 60px;
+    width: 120px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin: 2px 10px 0px -25px;
+
+}
+
+.buttonsignup {
+    border: 3px #FFC222 solid;
+    height: 70px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 30px;
+}
+
+.recipesection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*------------------------------------Shopping---------------------------------- */
+.shoppingbackground {
+    background-color: #EDEDED;
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.productborder {
+    border: 5px solid #FFD40D;
+    border-radius: 30px;
+    height: 520px;
+    width: 450px;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productborder img {
+    padding: 0px 0px 0px 60px;
+}
+
+/* ------sale circle---------- */
+.productborder div {
+    height: 80px;
+    width: 80px;
+    background-color: #FFD40D;
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-left: 15px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.productborder p {
+    margin-top: 10px;
+}
+
+.productborder p,
+.productborder h4 {
+    padding-left: 60px;
+}
+
+.productborder h4 {
+    color: #555555;
+}
+
+.productborder h4::first-letter {
+    color: #EE3A43;
+}
+
+
+.productborder button {
+    background-color: #FFD40D;
+    border: none;
+    padding: 10px;
+    margin-left: 320px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+.product1 {
+    margin-bottom: 80px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ----------------------------------Customer FeedBack------------------------------------------ */
+.feedbackchild1 h4 {
+    font-size: 30px;
+    color: #EE3A43;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.feedbackchild1 h2 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.feedbackchild1 p {
+    font-size: 20;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 800px;
+    margin-top: 60px;
+}
+
+.feedbackchild1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    padding-top: 50px;
+    padding-left: 500px;
+}
+
+.feedbackchild1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbackchild2 hr {
+    border: 2px solid black;
+
+}
+
+.feedbackchild2 img {
+    margin-left: 50px;
+}
+
+.feedbackchild2 {
+    margin-top: 80px;
+    display: flex;
+}
+
+.feedback {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+}
+
+/* ----------------------------------------recent post section------------------------ */
+
+.recentrecipeshead h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+}
+
+.recentrecipeshead hr {
+    width: 300px;
+    border: 3px solid #FFD40D;
+}
+
+.recentrecipeschild1 img {
+    border-radius: 30px;
+}
+
+.recentrecipeschild2 h6 {
+    background-color: #FFD40D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 8px;
+    width: 100px;
+
+}
+
+.recentrecipeschild2 h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.recentrecipeschild2author img {
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.recentrecipeschild2author p {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.recentrecipesparent {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.recentrecipeschild2 {
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.recentrecipeschild2author {
+    display: flex;
+}
+
+.recentrecipespost {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recentrecipes {
+    margin-top: 150px;
+}
+
+.recentrecipesparent:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 30px;
+}
+
+/* --------------------------------------Footer Section--------------------------- */
+.footerbackground {
+    background-repeat: no-repeat;
+    background-color: #f5f8fd;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+
+/* <----------Red Box------------> */
+.fullfooterchild1 {
+    display: block;
+    width: auto;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #EE3A43;
+}
+
+
+.fullfooterchild1 p {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.fullfooterchild1para1 {
+    color: #EDEDED;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.fullfooterchild1para2 {
+    color: #EDEDED;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+
+
+}
+
+.fullfooterchild1para3 {
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 40px;
+}
+
+
+/* <-------About and recipe menu---------> */
+
+.fullfooterchild2parahead {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.fullfooterchild2 hr {
+    width: 50px;
+    border: 3px solid #FFD40D;
+
+}
+
+.fullfooterchild3 hr {
+    width: 100px;
+    border: 3px solid #FFD40D;
+}
+
+.fullfooterchild2para,
+.footernewsletterpara
+
+/* newsletter text */
+    {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+}
+
+.fullfooterchild2para:hover {
+    cursor: pointer;
+}
+
+.fullfooterchild2para::before {
+    content: '\276F';
+}
+
+/* <--------NewsLetter section-----------> */
+.footernewsletter hr {
+    width: 80px;
+    border: 3px solid #FFD40D;
+
+}
+
+.footernewsletter input {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 15px;
+    padding: 0px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.newsletterbutton button {
+    background-color: #EE3A43;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin: 2.5px 15px 0px -18px;
+
+}
+
+.newsletterbutton {
+    border: 3px #EE3A43 solid;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 15px 0px 0px 30px;
+}
+
+.fullfooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fullfooterchild2,
+.fullfooterchild3,
+.footernewsletter {
+    margin-top: 20px;
+}
+
+/* ------------------Footer last line------------------ */
+.footerlastline hr {
+    border: 3px solid #FFD40D;
+    margin-top: 50px;
+}
+
+.footerlastline p {
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #EE3A43;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footerlastline p::before {
+    content: '\00A9';
+    font-size: 15px;
+    font-weight: 1000;
+}
+
+.footerlastline p span {
+    color: black;
+    font-weight: 500;
+}
+
+.footerlastline p span::before {
+    content: '\2758';
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.footerlastline {
+    margin-bottom: 20px;
+}
+
+/* ---------------- some Common hovers-------------------  */
+button:hover {
+    cursor: pointer;
+}
+
+
+
+/* --------------------------------Responsive--------------------------------- */
+
+@media screen and (max-width:500px) {
+    /* ----------------------------Nav Bar----------------------- */
+.imagechild1 img {
+    height: 20px;
+    width: auto;
+
+}
+
+
+.ulmain {
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ulmain li a {
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+.ulmain li button { 
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.parentheader {
+    margin: 10px 0px;
+    display: block;
+    justify-content: space-evenly;
+}
+
+
+nav {
+    top: 0px;
+}
+
+
+/* ------------------------------------------------------------Banner section */
+.banner {
+    background-image: url(./images/bannerimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerchild1 {
+    padding: 10px 0px;
+}
+
+.bannerchild1 h1 {
+    margin-bottom: 0px;
+    width: 250px;
+    font-size: 24px;
+}
+
+.bannerchild1 h3 {
+    width: 220px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.buttonchild2 button {
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 2px 10px 10px -25px;
+}
+
+.buttonchild2 {
+    border: 3px #EE3A43 solid;
+    height: 40px;
+    width: 83px;
+    border-radius: 10px;
+    margin: 20px 0px 40px 30px;
+}
+
+
+.bannerchild1 img {
+    height: 20px;
+    width: 20px;
+    margin: -70px 0px 0px 125px;
+}
+
+.bannerchild1 h4 {
+    margin: -18px 0px 50px 150px;
+    font-size: 12px;
+}
+
+/*-------------------------- About - text area-------------------------- */
+.about1 {
+    margin-top: 20px;
+    display: block;
+}
+
+.about1 h4 {
+    color: #EE3A43;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.about1 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    width: auto;
+}
+
+.textarea p {
+    font-size: 12px;
+    width: auto;
+    margin-right: 0px;
+}
+
+.verticalline {
+    border-left: none;
+    margin-left: -50px;
+}
+
+.verticalline img {
+    height: 50px;
+    width: 50px;
+    margin: 10px auto 0px auto;
+    
+}
+
+.verticalline h3 {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+
+}
+
+.verticalline p {
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.textarea {
+    display: block;
+    margin-top: 20px;
+}
+/* ---------------------------------------------- recipe area ---------------------------------------------------------*/
+.recipesparent1 {
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.recipesparent2 {
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.recipesparent3 {
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.recipeborder {
+    padding: 430px 0px 0px 0px;
+}
+
+.recipeborder button {
+    color: black;
+    padding: 10px 90px;
+    background-color: #FFC222;
+    border: none;
+    border-radius: 30px;
+    width: 320px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.recipesection {
+    margin-top: 10px;
+    display: block
+}
+.productborder {
+    border: 5px solid #FFD40D;
+    border-radius: 30px;
+    height: 520px;
+    width: 450px;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productborder img {
+    padding: 0px 0px 0px 60px;
+}
+
+.signupbackground {
+    width: 90%;   
+    display: block;
+}
+
+/* sign up text area */
+.signuptextarea h4 {
+    padding-top: 100px;
+    width: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.signuptextarea hr {
+    width: auto;
+    border: 5px solid #FFC222;
+    margin-bottom: 10px;
+}
+
+.signuptextarea p {
+    width: auto;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+/* Sign up input area */
+.signupinput {
+    padding-top: 10px;
+    display: b;
+    flex-direction: column;
+}
+
+.signupinput form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.emailid,
+.password,
+.fullname,
+.phonenumber {
+    width: 250px;
+    padding: 20px 30px;
+    font-size: 12px;
+}
+
+.otp {
+    width: 150px;
+    padding: 20px 30px;
+    font-size: 12px;
+    margin-left: 0px;
+}
+
+.signupbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+}
+/* -------------ipad responsive----------------------------- */
+@media (min-width:700px) and (max-width:850px) {
+
+
+
+    /* ----------Nav Bar------------- */
+    .imagechild1 img {
+        height: 40px;
+        margin-top: 10px;
+
+    }
+
+    .imagechild1 img:hover {
+        cursor: pointer;
+    }
+
+    .ulmain {
+        padding-top: 20px;
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+
+    .ulmain li a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .ulmain li button {
+        background-color: #FFC222;
+        margin-top: -13px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 30px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+    }
+
+    .ulmain li button:hover {
+
+        cursor: pointer;
+    }
+
+    .parentheader {
+        margin: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        position: sticky;
+        background-color: rgb(255, 255, 255);
+        top: -1px;
+        z-index: 100;
+    }
+
+    /* ------------------------------------------------------------Banner section */
+    .banner {
+        background-image: url(./images/bannerimg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerchild1 {
+        padding: 20px 0px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        display: block;
+    }
+
+    * .bannerchild1 h1 {
+        font-size: 24px;
+        width: 250px;
+        margin-top: 100px;
+        margin-bottom: -10px;
+    }
+
+    .bannerchild1 h3 {
+        width: 250px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .buttonchild2 button {
+        background-color: #EE3A43;
+        height: 40px;
+        width: 120px;
+        color: white;
+        font-weight: 900;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        margin: 2px 10px 20px -25px;
+
+    }
+
+    .buttonchild2 {
+        border: 3px #EE3A43 solid;
+        height: 50px;
+        width: 105px;
+        border-radius: 10px;
+        margin: 20px 0px 20px 30px;
+        display: flex;
+    }
+
+
+    .bannerchild1 img {
+        height: 30px;
+        width: 30px;
+        /* margin:  0px 0px 160px; */
+    }
+
+    .bannerchild1 h4 {
+        margin: -70px 0px 10px 200px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .bannerimgchild {}
+
+    /*-------------------------- About - text area-------------------------- */
+    .about1 {
+        margin-top: 100px;
+        display: block;
+
+    }
+
+    .about1 h4 {
+        color: #EE3A43;
+        font-size: 18px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-bottom: 10px;
+    }
+
+    .about1 h2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 34px;
+        width: 700px;
+    }
+
+    .textarea p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        width: 700px;
+    }
+
+    .verticalline {
+        border: none;
+        display: block;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .verticalline p {
+        width: 350px;
+    }
+    
+    .textarea {
+        display: block;
+        margin-top: 30px;
+    }
+
+
+    .signupbackground {
+        width: 90%;
+    }
+
+    .emailid,
+    .password,
+    .fullname,
+    .phonenumber {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 100%;
+        padding: 30px 30px;
+        font-size: 20px;
+    }
+
+    .otp {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 190px;
+        padding: 30px 30px;
+        font-size: 20px;
+        position: relative;
+        right: 450px;
+    }
+
+    .signupbox {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .signuptextarea h4 {
+        text-align: center;
+        width: 700px;
+    }
+
+    .signuptextarea hr {
+        margin-left: 220px;
+        width: 250px;
+        border: 5px solid #FFC222;
+        margin-bottom: 10px;
+    }
+
+    .signuptextarea p {
+        width: auto;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 30px 10px 10px 60px;
+    }
+
+    /* ----------------------------------products-------------------- */
+    .productborder div {
+        height: 80px;
+        width: 80px;
+        background-color: #FFD40D;
+        border-radius: 50%;
+        font-size: 18px;
+        padding-top: 28px;
+        padding-left: 15px;
+        font-weight: bolder;
+        text-align: center;
+        display: flex;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+
+    .productborder p {
+        margin-top: 10px;
+    }
+
+    .productborder p,
+    .productborder h4 {
+        padding-left: 60px;
+    }
+
+    .productborder h4 {
+        color: #555555;
+    }
+
+    .productborder h4::first-letter {
+        color: #EE3A43;
+    }
+
+    .products {
+        display: block;
+        margin-left: 140px;
+        padding-bottom: 10px;
+    }
+
+    /* ----------------------------------Customer FeedBack------------------------------------------ */
+    .feedbackchild1 h4 {
+        width: 700px;
+
+    }
+
+    .feedbackchild1 h2 {
+        width: 700px;
+
+
+    }
+
+    .feedbackchild1 p {
+        width: 700px;
+    }
+
+    .feedbackchild1 h3 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Outfit", sans-serif;
+        padding-top: 50px;
+        padding-left: 230px;
+    }
+
+    .feedbackchild1 {
+        display: block;
+    }
+
+    .feedbackchild2 hr {
+        border: none;
+
+
+    }
+
+    .feedbackchild2 img {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border: 5px solid #FFD40D;
+    }
+
+    .feedbackchild2 {
+        margin-top: 80px;
+        display: flex;
+    }
+
+    .feedback {
+        display: block;
+        margin: 50px 0px;
+        justify-content: space-evenly;
+    }
+
+    /* ----------------------------------------recent post section------------------------ */
+
+    .recentrecipespost {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* --------------------------------------Footer Section--------------------------- */
+    .footerbackground {
+        background-repeat: no-repeat;
+        background-color: #f5f8fd;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+
+    /* <----------Red Box------------> */
+    .fullfooterchild1 {
+
+        width: 200px;
+        height: fit-content;
+        margin-left: -80px;
+        margin-right: 20px;
+    }
+
+
+    .fullfooterchild1 p {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
+
+    .fullfooterchild1para1 {
+        padding-top: 0px;
+    }
+
+    .fullfooterchild1para2 {
+
+        padding-top: 0px;
+    }
+
+    .fullfooterchild1para3 {
+        padding-top: 0px;
+    }
+
+
+    /* <-------About and recipe menu---------> */
+
+    .newsletter text {
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        padding-top: 5px;
+        margin-right: 30px;
+    }
+
+    /* <--------NewsLetter section-----------> */
+    
+
+    .footernewsletter input {
+        height: 30px;
+        width: 150px;
+    }
+
+    .newsletterbutton button {
+    
+        height: 40px;
+        width: 100px;
+        
+
+    }
+
+    .newsletterbutton {
+   
+        height: 51px;
+        width: 90px;
+    }
+
+    .fullfooter {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fullfooterchild2,
+    .fullfooterchild3
+    {
+        margin-top: 20px;
+        margin-right: 15px;
+     
+    }
+
+
+    .fullfooterchild1 img {
+        height: 50px;
+        width: 80px;
+    }
+
+    .footersideimage1 {
+        width: 120px;
+    }
+
+    .footersideimage2 {
+        width: 120px;
+        margin-left:-15px;
+    } 
+}
