@@ -292,3 +292,118 @@ nav{
 .footerlastline{
     margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 576px) {
+    /* ----------------------------Nav Bar----------------------- */
+.imagechild1 img {
+    height: 20px;
+    width: auto;
+
+}
+.gridlayout{
+    width: 98%;
+}
+
+.ulmain {
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ulmain li a {
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+.ulmain li button { 
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.parentheader {
+    margin: 10px 0px;
+    display: block;
+    justify-content: space-evenly;
+}
+
+
+nav {
+    top: 0px;
+}
+
+.contactpagecontent {
+    margin-left: auto;
+    
+}
+
+.contactfullcontent{
+    display: block;
+    
+}
+.contactfullcontent img{
+    margin: 0px;
+    width: 350px;
+    align-items: center;
+}
+
+.contacttextcontent{
+    margin: 0px;
+    margin-top: 50px;
+ 
+} 
+.contacttextcontent h2{
+    font-size: 28px;
+    width: 100%;
+
+    text-align: center;
+
+}
+.companyname p, .addressdetails p, .contactemail p, .contactphone p, .contacttime p{
+    font-size: 18px;
+    width: 100%;
+}
+.contactpagecontent p{
+    width: 100%;
+    font-size: 20px;
+}
+
+/* -------------footer section------------ */
+
+.footersideimage1, .footersideimage2 {
+    display: none
+}
+
+.fullfooterchild3, .fullfooterchild2{
+    display: none;
+}
+.fullfooter{
+    display: block;
+}
+
+.footernewsletterpara, .fullfooterchild2parahead , .footernewsletter {
+text-align: center;
+
+}
+.footernewsletter hr {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.newsletterbutton{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullfooterchild1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+
+}

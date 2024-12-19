@@ -299,3 +299,241 @@ nav{
 .footerlastline{
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+    .products, .productsectionrow {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .fullfooterchild2{
+      display: none;
+    }
+  }
+
+
+  @media (min-width:700px) and  (max-width: 991px)  {
+    /* --------------------------------------Footer Section--------------------------- */
+    .footerbackground {
+        background-repeat: no-repeat;
+        background-color: #f5f8fd;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+
+    /* <----------Red Box------------> */
+    .fullfooterchild1 {
+
+        width: 200px;
+        height: fit-content;
+        margin-left: -80px;
+        margin-right: 20px;
+    }
+
+
+    .fullfooterchild1 p {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
+
+    .fullfooterchild1para1 {
+        padding-top: 0px;
+    }
+
+    .fullfooterchild1para2 {
+
+        padding-top: 0px;
+    }
+
+    .fullfooterchild1para3 {
+        padding-top: 0px;
+    }
+
+
+    /* <-------About and recipe menu---------> */
+
+    .newsletter text {
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        padding-top: 5px;
+        margin-right: 30px;
+    }
+
+    /* <--------NewsLetter section-----------> */
+    
+
+    .footernewsletter input {
+        height: 30px;
+        width: 150px;
+    }
+
+    .newsletterbutton button {
+    
+        height: 40px;
+        width: 100px;
+        
+
+    }
+
+    .newsletterbutton {
+   
+        height: 51px;
+        width: 90px;
+    }
+
+    .fullfooter {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fullfooterchild2,
+    .fullfooterchild3
+    {
+        display: none;
+        margin-top: 20px;
+        margin-right: 15px;
+     
+    }
+
+
+    .fullfooterchild1 img {
+        height: 50px;
+        width: 80px;
+    }
+
+    .footersideimage1 {
+        width: 120px;
+    }
+
+    .footersideimage2 {
+        width: 120px;
+        margin-left:-15px;
+    } 
+  
+  
+
+
+
+  }
+
+   
+  @media screen and (max-width: 576px) {
+    .gridlayout{
+        width: 100%;
+    }
+    .parentheader {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .nav{
+        position: relative;
+      }
+    
+      .ulmain {
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        width: 100%;
+      }
+    
+      .ulmain li a {
+        font-size: 1rem;
+      }
+    
+      .ulmain li button {
+        padding: 0.5rem 1rem;
+      }
+    
+
+
+      .ourmasalas, .ourmotive{
+        display: block;
+      }
+
+      .ourmotive img,  .ourmasalas img {
+        margin: 0px;
+        width: 300px;
+        height: 350px;
+      }
+      .ourmotive p, .ourmasalas p{
+        width: 100%;
+        font-size: 14px;
+      }
+
+
+
+      /* -------------footer section------------ */
+  
+  .footersideimage1, .footersideimage2 {
+      display: none
+  }
+  
+  .fullfooterchild3, .fullfooterchild2{
+      display: none;
+  }
+  .fullfooter{
+      display: block;
+  }
+  
+  .footernewsletterpara, .fullfooterchild2parahead , .footernewsletter {
+  text-align: center;
+  
+  }
+  .footernewsletter hr {
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  .newsletterbutton{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .fullfooterchild1{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      width: 100%;
+  }
+  
+    }
+    
+    /* Utility Classes */
+    .hidden-mobile {
+      display: none;
+    }
+
+  
+  /* Accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    .productborder,
+    .productborder button,
+    .ulmain li button {
+      transition: none;
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    .productborder {
+      break-inside: avoid;
+      border: 1px solid #000;
+    }
+  }
+
+  @media (min-width:700px) and  (max-width: 991px) {
+    .ourmotive, .ourmasalas{
+        display: block;
+text-align: center;
+    }
+    .ourmotive img{
+        align-items: center;
+        margin: 0px auto;
+        align-items: center;
+    }
+
+    .ourmotive p, .ourmasalas p{
+        width: 100%;
+        font-size: 14px;
+      }
+  }
